@@ -12,6 +12,8 @@
 #import "CABasicViewController.h"
 #import "CAKeyFrameViewController.h"
 #import "CASpringAnimationViewController.h"
+#import "FaceBookPopViewController.h"
+
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -97,7 +99,9 @@
             break;
         case 6:
         {
-            
+            FaceBookPopViewController *vc = [[FaceBookPopViewController alloc] init];
+            vc.title = self.dataArray[indexPath.row];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:

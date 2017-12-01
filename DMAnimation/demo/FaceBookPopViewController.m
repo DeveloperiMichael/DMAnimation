@@ -8,6 +8,7 @@
 
 #import "FaceBookPopViewController.h"
 #import <Masonry/Masonry.h>
+#import <pop/POP.h>
 
 @interface FaceBookPopViewController ()
 
@@ -59,17 +60,60 @@
 #pragma mark- Private Methods
 
 - (void)startAnimation:(UIButton *)button {
-    CASpringAnimation *ani = [CASpringAnimation animationWithKeyPath:@"position.x"];
-    ani.damping = 5;
-    ani.stiffness = 100;
-    ani.mass = 1;
-    ani.initialVelocity = 0;
-    ani.fromValue = [NSNumber numberWithFloat:self.view.center.x+100];
-    ani.toValue = [NSNumber numberWithFloat:self.view.center.x];
-    ani.duration = 2;
-    [self.springView.layer addAnimation:ani forKey:@"spring"];
+    //[self scaleAnimation];
+    [self.springView.layer removeAllAnimations];
+    POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
     
+    scaleAnimation.name                = @"SpringAnimation";
+    scaleAnimation.delegate            = self;
+    
+    scaleAnimation.toValue             = [NSValue valueWithCGPoint:CGPointMake(1, 1)];
+    scaleAnimation.velocity            = [NSValue valueWithCGPoint:CGPointMake(-2, -2)];
+    scaleAnimation.springBounciness    = 20.f;
+    scaleAnimation.springSpeed         = 10.f;
+    scaleAnimation.dynamicsTension     = 700.f;
+    scaleAnimation.dynamicsFriction    = 7.f;
+    scaleAnimation.dynamicsMass        = 3.f;
+    
+    [self.springView pop_addAnimation:scaleAnimation forKey:nil];
 }
+
+//- (void)scaleAnimation {
+//
+//    POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+//
+//    scaleAnimation.name               = @"scaleSmallAnimation";
+//    scaleAnimation.delegate           = self;
+//
+//    scaleAnimation.duration           = 0.15f;
+//    scaleAnimation.toValue            = [NSValue valueWithCGPoint:CGPointMake(1.25, 1.25)];
+//
+//    [self.springView pop_addAnimation:scaleAnimation forKey:nil];
+//}
+//- (void)pop_animationDidStop:(POPAnimation *)anim finished:(BOOL)finished {
+//    
+//    if ([anim.name isEqualToString:@"scaleSmallAnimation"]) {
+//        
+//        POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+//        
+//        scaleAnimation.name                = @"SpringAnimation";
+//        scaleAnimation.delegate            = self;
+//        
+//        scaleAnimation.toValue             = [NSValue valueWithCGPoint:CGPointMake(1, 1)];
+//        scaleAnimation.velocity            = [NSValue valueWithCGPoint:CGPointMake(-2, -2)];
+//        scaleAnimation.springBounciness    = 20.f;
+//        scaleAnimation.springSpeed         = 10.f;
+//        scaleAnimation.dynamicsTension     = 700.f;
+//        scaleAnimation.dynamicsFriction    = 7.f;
+//        scaleAnimation.dynamicsMass        = 3.f;
+//        
+//        [self.springView pop_addAnimation:scaleAnimation forKey:nil];
+//        
+//    } else if ([anim.name isEqualToString:@"SpringAnimation"]) {
+//        
+//        //[self performSelector:@selector(scaleAnimation) withObject:nil afterDelay:1];
+//    }
+//}
 
 
 #pragma mark-
@@ -79,6 +123,8 @@
     if (!_springView) {
         _springView = [[UIView alloc] init];
         _springView.backgroundColor = [UIColor redColor];
+        _springView.layer.masksToBounds = YES;
+        _springView.layer.cornerRadius = 60;
     }
     return _springView;
 }
@@ -111,8 +157,8 @@
     }];
     [_springView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(self.view);
-        make.width.mas_equalTo(100);
-        make.height.mas_equalTo(40);
+        make.width.mas_equalTo(120);
+        make.height.mas_equalTo(120);
     }];
 }
 
