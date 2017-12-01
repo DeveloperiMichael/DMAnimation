@@ -7,25 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1BE6D41FD0FC25008C4902 /* FaceBookPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BE6D31FD0FC25008C4902 /* FaceBookPopViewController.m */; };
+		AB80F0811F3D474F0063644C /* to.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB80F0801F3D474F0063644C /* to.jpg */; };
+		AB80F0831F3D475C0063644C /* from.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB80F0821F3D475C0063644C /* from.jpg */; };
+		AB80F0891F3D87090063644C /* CASpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80F0881F3D87090063644C /* CASpringAnimationViewController.m */; };
+		AB84311E1F34107800BD3E5E /* CAKeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB84311D1F34107800BD3E5E /* CAKeyFrameViewController.m */; };
+		AB963AAA1F56B3A400813D1D /* DMAppDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB963AA91F56B3A400813D1D /* DMAppDelegateManager.m */; };
+		AB963AAE1F56B85B00813D1D /* DMUserCenterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = AB963AAD1F56B85B00813D1D /* DMUserCenterModule.m */; };
 		ABB43B461F32EA2B00C42109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB43B451F32EA2B00C42109 /* main.m */; };
 		ABB43B491F32EA2B00C42109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB43B481F32EA2B00C42109 /* AppDelegate.m */; };
-		ABB43B4C1F32EA2B00C42109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB43B4B1F32EA2B00C42109 /* ViewController.m */; };
-		ABB43B4F1F32EA2B00C42109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB43B4D1F32EA2B00C42109 /* Main.storyboard */; };
 		ABB43B511F32EA2B00C42109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB43B501F32EA2B00C42109 /* Assets.xcassets */; };
 		ABB43B541F32EA2B00C42109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB43B521F32EA2B00C42109 /* LaunchScreen.storyboard */; };
+		ABB43B5E1F32EAC200C42109 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB43B5D1F32EAC200C42109 /* HomeViewController.m */; };
+		ABB43B611F32F3F100C42109 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB43B601F32F3F100C42109 /* CATransitionViewController.m */; };
+		ABB43B641F3321B400C42109 /* CABasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB43B631F3321B400C42109 /* CABasicViewController.m */; };
+		E4920E5FEA214444F8006FE2 /* libPods-DMAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D108E7E0A872CA7814105A9F /* libPods-DMAnimation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BDAC65F757037A9F9F15D68 /* Pods-DMAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMAnimation/Pods-DMAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		AB1BE6D21FD0FC25008C4902 /* FaceBookPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceBookPopViewController.h; sourceTree = "<group>"; };
+		AB1BE6D31FD0FC25008C4902 /* FaceBookPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookPopViewController.m; sourceTree = "<group>"; };
+		AB80F0801F3D474F0063644C /* to.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = to.jpg; path = demo/to.jpg; sourceTree = "<group>"; };
+		AB80F0821F3D475C0063644C /* from.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = from.jpg; path = demo/from.jpg; sourceTree = "<group>"; };
+		AB80F0871F3D87090063644C /* CASpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASpringAnimationViewController.h; sourceTree = "<group>"; };
+		AB80F0881F3D87090063644C /* CASpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASpringAnimationViewController.m; sourceTree = "<group>"; };
+		AB84311C1F34107800BD3E5E /* CAKeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyFrameViewController.h; sourceTree = "<group>"; };
+		AB84311D1F34107800BD3E5E /* CAKeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyFrameViewController.m; sourceTree = "<group>"; };
+		AB963AA81F56B3A400813D1D /* DMAppDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAppDelegateManager.h; sourceTree = "<group>"; };
+		AB963AA91F56B3A400813D1D /* DMAppDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegateManager.m; sourceTree = "<group>"; };
+		AB963AAB1F56B48500813D1D /* DMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMApplicationDelegate.h; sourceTree = "<group>"; };
+		AB963AAC1F56B85B00813D1D /* DMUserCenterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMUserCenterModule.h; path = ../DMUserCenterModule.h; sourceTree = "<group>"; };
+		AB963AAD1F56B85B00813D1D /* DMUserCenterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMUserCenterModule.m; path = ../DMUserCenterModule.m; sourceTree = "<group>"; };
+		AB963AAF1F56BBDD00813D1D /* DMAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DMAnimation.entitlements; sourceTree = "<group>"; };
 		ABB43B411F32EA2B00C42109 /* DMAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB43B451F32EA2B00C42109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABB43B471F32EA2B00C42109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABB43B481F32EA2B00C42109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABB43B4A1F32EA2B00C42109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABB43B4B1F32EA2B00C42109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ABB43B4E1F32EA2B00C42109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB43B501F32EA2B00C42109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB43B531F32EA2B00C42109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB43B551F32EA2B00C42109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB43B5C1F32EAC200C42109 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		ABB43B5D1F32EAC200C42109 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		ABB43B5F1F32F3F100C42109 /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		ABB43B601F32F3F100C42109 /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		ABB43B621F3321B400C42109 /* CABasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasicViewController.h; sourceTree = "<group>"; };
+		ABB43B631F3321B400C42109 /* CABasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicViewController.m; sourceTree = "<group>"; };
+		C31861CCB03CC5B33F807691 /* Pods-DMAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMAnimation/Pods-DMAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		D108E7E0A872CA7814105A9F /* libPods-DMAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +62,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4920E5FEA214444F8006FE2 /* libPods-DMAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14238099E49FD84E888DDED9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D108E7E0A872CA7814105A9F /* libPods-DMAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABB43B381F32EA2B00C42109 = {
 			isa = PBXGroup;
 			children = (
 				ABB43B431F32EA2B00C42109 /* DMAnimation */,
 				ABB43B421F32EA2B00C42109 /* Products */,
+				B2E76317378CDC3DFE578346 /* Pods */,
+				14238099E49FD84E888DDED9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +98,21 @@
 		ABB43B431F32EA2B00C42109 /* DMAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AB963AAF1F56BBDD00813D1D /* DMAnimation.entitlements */,
 				ABB43B471F32EA2B00C42109 /* AppDelegate.h */,
 				ABB43B481F32EA2B00C42109 /* AppDelegate.m */,
-				ABB43B4A1F32EA2B00C42109 /* ViewController.h */,
-				ABB43B4B1F32EA2B00C42109 /* ViewController.m */,
-				ABB43B4D1F32EA2B00C42109 /* Main.storyboard */,
+				ABB43B5B1F32EAB500C42109 /* demo */,
 				ABB43B501F32EA2B00C42109 /* Assets.xcassets */,
 				ABB43B521F32EA2B00C42109 /* LaunchScreen.storyboard */,
 				ABB43B551F32EA2B00C42109 /* Info.plist */,
+				AB80F0801F3D474F0063644C /* to.jpg */,
+				AB80F0821F3D475C0063644C /* from.jpg */,
 				ABB43B441F32EA2B00C42109 /* Supporting Files */,
+				AB963AA81F56B3A400813D1D /* DMAppDelegateManager.h */,
+				AB963AA91F56B3A400813D1D /* DMAppDelegateManager.m */,
+				AB963AAB1F56B48500813D1D /* DMApplicationDelegate.h */,
+				AB963AAC1F56B85B00813D1D /* DMUserCenterModule.h */,
+				AB963AAD1F56B85B00813D1D /* DMUserCenterModule.m */,
 			);
 			path = DMAnimation;
 			sourceTree = "<group>";
@@ -79,6 +125,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABB43B5B1F32EAB500C42109 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				ABB43B5C1F32EAC200C42109 /* HomeViewController.h */,
+				ABB43B5D1F32EAC200C42109 /* HomeViewController.m */,
+				ABB43B5F1F32F3F100C42109 /* CATransitionViewController.h */,
+				ABB43B601F32F3F100C42109 /* CATransitionViewController.m */,
+				ABB43B621F3321B400C42109 /* CABasicViewController.h */,
+				ABB43B631F3321B400C42109 /* CABasicViewController.m */,
+				AB84311C1F34107800BD3E5E /* CAKeyFrameViewController.h */,
+				AB84311D1F34107800BD3E5E /* CAKeyFrameViewController.m */,
+				AB80F0871F3D87090063644C /* CASpringAnimationViewController.h */,
+				AB80F0881F3D87090063644C /* CASpringAnimationViewController.m */,
+				AB1BE6D21FD0FC25008C4902 /* FaceBookPopViewController.h */,
+				AB1BE6D31FD0FC25008C4902 /* FaceBookPopViewController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		B2E76317378CDC3DFE578346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAC65F757037A9F9F15D68 /* Pods-DMAnimation.debug.xcconfig */,
+				C31861CCB03CC5B33F807691 /* Pods-DMAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB43B581F32EA2B00C42109 /* Build configuration list for PBXNativeTarget "DMAnimation" */;
 			buildPhases = (
+				DD9AA32BF29D7DB48E333C20 /* [CP] Check Pods Manifest.lock */,
 				ABB43B3D1F32EA2B00C42109 /* Sources */,
 				ABB43B3E1F32EA2B00C42109 /* Frameworks */,
 				ABB43B3F1F32EA2B00C42109 /* Resources */,
+				C92DA00D05312EEC0FAD2858 /* [CP] Embed Pods Frameworks */,
+				36B77A4C9318A5F906ECA19E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +187,16 @@
 				TargetAttributes = {
 					ABB43B401F32EA2B00C42109 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -139,34 +225,85 @@
 			files = (
 				ABB43B541F32EA2B00C42109 /* LaunchScreen.storyboard in Resources */,
 				ABB43B511F32EA2B00C42109 /* Assets.xcassets in Resources */,
-				ABB43B4F1F32EA2B00C42109 /* Main.storyboard in Resources */,
+				AB80F0811F3D474F0063644C /* to.jpg in Resources */,
+				AB80F0831F3D475C0063644C /* from.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B77A4C9318A5F906ECA19E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMAnimation/Pods-DMAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92DA00D05312EEC0FAD2858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMAnimation/Pods-DMAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9AA32BF29D7DB48E333C20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABB43B3D1F32EA2B00C42109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB43B4C1F32EA2B00C42109 /* ViewController.m in Sources */,
+				ABB43B641F3321B400C42109 /* CABasicViewController.m in Sources */,
+				AB963AAA1F56B3A400813D1D /* DMAppDelegateManager.m in Sources */,
 				ABB43B491F32EA2B00C42109 /* AppDelegate.m in Sources */,
+				ABB43B611F32F3F100C42109 /* CATransitionViewController.m in Sources */,
 				ABB43B461F32EA2B00C42109 /* main.m in Sources */,
+				AB84311E1F34107800BD3E5E /* CAKeyFrameViewController.m in Sources */,
+				AB1BE6D41FD0FC25008C4902 /* FaceBookPopViewController.m in Sources */,
+				ABB43B5E1F32EAC200C42109 /* HomeViewController.m in Sources */,
+				AB80F0891F3D87090063644C /* CASpringAnimationViewController.m in Sources */,
+				AB963AAE1F56B85B00813D1D /* DMUserCenterModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABB43B4D1F32EA2B00C42109 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABB43B4E1F32EA2B00C42109 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABB43B521F32EA2B00C42109 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -219,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,23 +409,35 @@
 		};
 		ABB43B591F32EA2B00C42109 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDAC65F757037A9F9F15D68 /* Pods-DMAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = DMAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.developermichael.DMAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29ecd84c-3f95-48a3-93c4-e78021a43f29";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ABB43B5A1F32EA2B00C42109 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31861CCB03CC5B33F807691 /* Pods-DMAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = DMAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.developermichael.DMAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29ecd84c-3f95-48a3-93c4-e78021a43f29";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -311,6 +460,7 @@
 				ABB43B5A1F32EA2B00C42109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

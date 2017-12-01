@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CABasicViewController.h
 //  DMAnimation
 //
 //  Created by 张炯 on 2017/8/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CABasicViewController : UIViewController
 
 @end
-
